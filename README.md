@@ -16,17 +16,17 @@ Before running the script, ensure you have the following installed:
 pip install selenium boto3
 
 # Configuration 
-chromedriver_path = "/Users/yourusername/Desktop/selenium/chromedriver"
-download_dir = "/Users/yourusername/Desktop/selenium/downloaded_pdfs"
-judgments_page_url = "https://www.sci.gov.in/#1697446384453-9aeef8cc-5f35"
-s3_bucket_name = "your-s3-bucket-name"
-s3_prefix = "your/s3/prefix/"
+- chromedriver_path = "/Users/yourusername/Desktop/selenium/chromedriver"
+- download_dir = "/Users/yourusername/Desktop/selenium/downloaded_pdfs"
+- judgments_page_url = "https://www.sci.gov.in/#1697446384453-9aeef8cc-5f35"
+- s3_bucket_name = "your-s3-bucket-name"
+- s3_prefix = "your/s3/prefix/"
 
 # AWS Credentials 
-Ensure aws credentials are configured in .env
-AWS_DEFAULT_REGION="Your_Region"
-AWS_ACCESS_KEY_ID="Your_Access_key_id"
-AWS_SECRET_ACCESS_KEY="Your_aws_secret_access_key" 
+- Ensure aws credentials are configured in .env
+- AWS_DEFAULT_REGION="Your_Region"
+- AWS_ACCESS_KEY_ID="Your_Access_key_id"
+- AWS_SECRET_ACCESS_KEY="Your_aws_secret_access_key" 
 
 # Important note
 Ensure to "allow" selenium driver in mac by going to Privacy & Security in System setting 
