@@ -1,4 +1,4 @@
-# Latest sci Judgment Scraper
+# Latest SCI Judgment Scraper
 
 **Latest Judgment Scraper** automates the process of downloading the latest judgment PDFs from a specified website and uploading them to an AWS S3 bucket. This tool is particularly useful for users who need to regularly collect and archive legal documents.
 
