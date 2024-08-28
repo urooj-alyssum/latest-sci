@@ -34,13 +34,6 @@ Ensure to "allow" selenium driver in mac by going to Privacy & Security in Syste
 # Run the automation 
 python3 your_scriptname.py (example : python3 latestsci.py) 
 
-# Scrapping & Uploading to S3 
-
-
-
-# Sucessfully upload latest judgements On S3 bucket 
-
-
 
 
 
